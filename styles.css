@@ -1,28 +1,32 @@
 ﻿@media (max-width: 576px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .container {
-        max-width: 100%;
+        flex-direction: column;
+        margin: 0;
     }
 
-    .logo img {
-        margin-left: 5%;
-        width: calc(7vh);
+    .navigation {
+        width: 100%;
     }
 
-    .navigation a {
-        font-size: 1rem;
+    .main-block {
+        margin: 0;
     }
 
-    .title {
+    .promo {
         font-size: 1.2rem;
     }
 
-    footer h2, footer p {
-        font-size: 1rem;
+    footer h2 {
+        font-size: 1.7rem;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
+    footer {
+        font-size: 1.2rem;
     }
 }
 
