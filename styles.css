@@ -464,7 +464,7 @@ footer p a:active {
     height: 100%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 630px) {
     header {
         height: auto;
         padding: 0.2rem;
@@ -650,7 +650,7 @@ footer p a:active {
     }
 }
 
-@media (min-width: 760px) and (max-width: 1350px) {
+@media (min-width: 630px) and (max-width: 1350px) {
     .content-additional {
         flex-direction: column;
     }
